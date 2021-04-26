@@ -7,4 +7,7 @@ console.log(yourSurname);
 var color = prompt("Qual'è il tuo Colore preferito?")
 console.log(color);
 
-document.getElementById("pwd").innerHTML = ( yourName + yourSurname + color + "21" )
+var password = yourName + yourSurname + color + "21"
+console.log(password);
+
+document.getElementById("pwd").innerHTML = yourName + yourSurname + color + "21"
